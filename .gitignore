@@ -1,0 +1,10 @@
+# cache feature (rigenerabile, non serve su git)
+output/
+# file temporanei
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# cartella flagged di Gradio
+flagged/
+# file di labels generati automaticamente dal notebook
+dataset/**/labels.txt
